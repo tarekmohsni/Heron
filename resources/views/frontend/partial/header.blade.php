@@ -60,11 +60,6 @@
 		<div class="sticky-menu">
 			<div class="grid-row clear-fix">
 				<!-- logo -->
-				<a href="{{URL::route('home')}}" class="logo">
-
-					<img src="@if($siteInfo['logo']){{asset('storage/site/'.$siteInfo['logo'])}} @else{{ asset('frontend/img/logo.png') }}@endif" alt>
-					<h1>{{$siteInfo['name']}}</h1>
-				</a>
 				<!-- / logo -->
 				<nav class="main-nav">
 					<ul class="clear-fix">

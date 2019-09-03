@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 
 <head>
-	<title>{{$siteInfo['short_name']}} | @yield('pageTitle')</title>
+	<title>{{'Heron'}} | @yield('pageTitle')</title>
 	<meta charset="utf-8">
 	<meta name="description" content="{{$siteInfo['name']}}">
     <meta name="keywords" content="school,college,management,result,exam,attendace,hostel,admission,events">
